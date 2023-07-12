@@ -5,7 +5,7 @@ import SavedStocks from "./pages/SavedStocks";
 function App() {
 
   return (
-    <div className="w-full min-h-screen max-w-screen-lg py-0	px-5 my-0 mx-auto text-center bg-slate-800">
+    <div className="w-full min-h-screen max-w-screen py-0	px-5 my-0 mx-auto text-center bg-slate-800">
       <Router>
         <Header />
         <Routes>

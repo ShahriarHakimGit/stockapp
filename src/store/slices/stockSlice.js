@@ -37,9 +37,7 @@ export const stockSlice = createSlice({
         .addCase(fetchStock.fulfilled, (state, action) => {
             state.isLoading = false
             state.isSuccess = true
-            console.log(action.payload)
             state.stock = action.payload
-            console.log(state.stock)
         })
         .addCase(fetchStock.rejected, (state, action) => {
             state.isLoading = false;
